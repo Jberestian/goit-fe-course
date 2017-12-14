@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-image: url("img/sea2.jpg");
     background-repeat: no-repeat;
@@ -20,22 +26,27 @@ body{
 }
 
 .plane {
-    width: 480px;
-    height: 250px;
-    margin-left: 3px;
+    width: 420px;
+    height: 200px;
+    margin-left: 5px;
     margin-top: 10px;
 }
 
 h1, h2, h3, h4, h6{
     margin-left: 5px;
     font-size: 25px;
+    margin-top: 20px;
 }
->
 
+p{
+    font-size: 15px;
+    margin: 10px 10px;
+}
 
 .bold{
     font-weight: bold;
-    font-size: 11px;
+    font-size: 17px;
+    margin-top: 20px;
 }
 
 .border{
@@ -52,10 +63,16 @@ h1, h2, h3, h4, h6{
     height: 100px;
     line-height: 2.1;
     list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
 }
 
 .list1{
-    margin-top: 33px;
+    float: left;
+    margin-top: 20px;
     line-height: 2.1;
     list-style: none;
+    margin-bottom: 20px;
+    margin-left: 5px;
 }
