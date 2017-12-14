@@ -57,8 +57,8 @@ p{
 }
 
 .list{
-    float: left;
     display: inline-block;
+    vertical-align: top;
     width: 220px;
     height: 100px;
     line-height: 2.1;
@@ -69,7 +69,8 @@ p{
 }
 
 .list1{
-    float: left;
+    display: inline-block;
+    vertical-align: top;
     margin-top: 20px;
     line-height: 2.1;
     list-style: none;
