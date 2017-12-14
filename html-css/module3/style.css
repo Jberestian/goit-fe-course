@@ -72,7 +72,7 @@ li:before{
     content: "\2192  ";
     color: aqua;
 }
-.list1{
+.list-right{
     display: inline-block;
     vertical-align: top;
     margin-top: 20px;
