@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+body{
+    background-image: url("img/sea2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.wrapper{
+    width: 480px;
+    height: auto;
+    display: inline-block;
+    position: center;
+    border: 2px solid white;
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    margin-left: 450px;
+}
+
+.plane {
+    width: 480px;
+    height: 250px;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+h1, h2, h3, h4, h6{
+    margin-left: 5px;
+    font-size: 25px;
+}
+>
+
+
+.bold{
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.border{
+    border-top: 2px solid gray;
+    margin-right: 17px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.list{
+    float: left;
+    display: inline-block;
+    width: 220px;
+    height: 100px;
+    line-height: 2.1;
+    list-style: none;
+}
+
+.list1{
+    margin-top: 33px;
+    line-height: 2.1;
+    list-style: none;
+}
