@@ -1,0 +1,31 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("img/sea2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    width: 300px;
+    height: 250px;
+    float: left;
+}
+
+p{
+    font-size: 20px;
+}
+
+.box {
+    width: 500px;
+    display: inline-block;
+}
+
+
+

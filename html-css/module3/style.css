@@ -1,4 +1,4 @@
-@charset "UTF-8";
+
 
 *{
     margin: 0;
@@ -6,67 +6,101 @@
     box-sizing: border-box;
 }
 
-body{
+.wrapper{
     background-image: url("img/sea2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    background-position: center;
+    padding: 100px 0;
+
 }
 
-.wrapper{
+.content{
     width: 480px;
-    height: auto;
-    display: inline-block;
-    position: center;
-    border: 2px solid white;
     background-color: white;
-    margin: 30px;
-    padding: 20px;
-    margin-left: 450px;
+    margin: auto;
+    padding: 60px 37px 44px;
+    font-family: Arial sans-serif;
 }
 
-.plane {
-    width: 420px;
-    height: 200px;
-    margin-left: 5px;
-    margin-top: 10px;
+.article{
+    margin-bottom: 51px;
 }
 
-h1, h2, h3, h4, h6{
-    margin-left: 5px;
+.article:last-child{
+    margin-bottom: 0;
+}
+
+.article-second{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 52px;
+}
+
+.article-text{
+    margin-bottom: 37px;
+}
+
+.sub-title{
+    font-size: 14px;
+    color: #263555;
+    line-height: 19px;
+    margin-bottom: 22px;
+}
+
+.sub-title-mod{
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #263555;
+    line-height: 19px;
+}
+
+.title{
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-transform: uppercase;
+    color: #263555;
     font-size: 25px;
-    margin-top: 20px;
+    margin-bottom: 27px;
 }
 
-p{
-    font-size: 15px;
-    margin: 10px 10px;
+.picture{
+    display: block;
+    margin: 0 auto 27px;
 }
 
-.bold{
-    font-weight: bold;
-    font-size: 17px;
-    margin-top: 20px;
+.text{
+    color: #4e5050;
+    font-size: 11px;
+    line-height: 17px;
 }
 
-.border{
-    border-top: 2px solid gray;
-    margin-right: 17px;
-    padding: 20px;
-    margin-top: 40px;
+ul{
+    list-style: none;
 }
 
 .list{
     display: inline-block;
     vertical-align: top;
-    line-height: 2.1;
-    list-style: none;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-
 }
-li:before{
-    content: "\2192  ";
-    color: aqua;
+
+.list:last-child{
+    margin-left: 50px;
+}
+
+.list-item{
+    color: #263555;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 18px;
+}
+
+.list-item:last-child{
+    margin-bottom: 0;
+}
+
+.list-article-item{
+    margin-bottom: 25px;
+}
+
+.list-article-item:last-child{
+    margin-bottom: 0;
 }
