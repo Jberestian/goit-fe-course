@@ -1,0 +1,136 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*.clearfix {*/
+    /*content: "";*/
+    /*display: table;*/
+    /*clear: both;*/
+/*}*/
+
+
+.menu{
+    width: 150px;
+    height: 30px;
+    border: 2px solid blue;
+    text-align: center;
+    margin: 10px 20px;
+    list-style: none;
+    background-color: pink;
+}
+
+.menu:hover{
+    background-color: aqua;
+    color: red;
+}
+
+.menu1{
+    width: 150px;
+    height: 30px;
+    border: 2px solid black;
+    text-align: left;
+    margin: 10px 20px;
+    list-style: none;
+    background-color: #353535;
+    color: #fff;
+}
+
+.menu1:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+
+.menu2{
+    display: inline-block;
+    width: 70px;
+    /*border: 2px solid black;*/
+    text-align: center;
+    padding: 5px;
+    list-style: none;
+}
+
+.head-menu{
+    background-color: #de951c;
+    height: 30px;
+    text-align: center;
+
+}
+
+.menu2:hover{
+    background-color: red;
+    color: #FFF;
+}
+
+.first-latter:first-letter{
+    font-size: 20px;
+    color: #ff2c16;
+}
+
+.first-line:first-line{
+    font-size: 19px;
+    color: #ff2c16;
+}
+
+.first1::selection{
+    color: green;
+    font-size: 20px;
+    background-color: red;
+}
+
+.focus{
+    border: 2px solid black;
+    list-style: none;
+    width: 100px;
+    margin: 10px 10px;
+}
+
+.focus:focus{
+    color: green;
+    background-color: red;
+}
+
+.focus1:focus{
+    color: #de951c;
+    background-color: green;
+}
+
+.focus2:focus{
+    color: aqua;
+    background-color: pink;
+    width: 200px;
+}
+
+.first2:after{
+    content: "Lorem";
+    color: red;
+}
+
+.first2:before{
+    content: "dolor";
+    color: green;
+}
+
+.ntl:nth-child(3n+3){
+    color: #ff2c16;
+}
+
+.clor{
+    margin: 10px 20px;
+    color: green;
+}
+
+.clor:nth-child(3n+1){
+    color: #ff2c16;
+}
+
+.color{
+    margin: 10px 20px;
+}
+
+.color:nth-child(3){
+    color: green;
+}
