@@ -77,3 +77,14 @@ a{
 .navigation3:before{
     content: '\2192';
 }
+
+.boxes{
+    background-color: #ff8de3;
+    width: 150px;
+    margin: 10px 20px;
+}
+
+.boxes:target{
+    background-color: #143567;
+    color: pink;
+}
