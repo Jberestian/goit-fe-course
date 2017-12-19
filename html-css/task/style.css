@@ -11,6 +11,17 @@
     /*clear: both;*/
 /*}*/
 
+body {
+    /* объявляем несколько счетчиков, задав
+    переменные с произвольными именами
+    count-box, count-block и headline,
+    для count-block задано начальное значение 100 */
+
+    counter-reset: count-box
+    count-block 100
+    headline;
+}
+
 
 .menu{
     width: 150px;
@@ -133,4 +144,9 @@
 
 .color:nth-child(3){
     color: green;
+}
+
+.box{
+    margin: 10px 20px;
+    counter-increment: 1;
 }
