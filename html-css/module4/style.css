@@ -30,8 +30,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 1920px;
-    height: 1795px;
     padding: 100px 0;
 
 }
@@ -82,7 +80,8 @@ body{
     padding: 5px;
     text-align: center;
     position: absolute;
-    left: -25px;
+    left: -35px;
+    width: 10px;
 }
 
 .block1{
