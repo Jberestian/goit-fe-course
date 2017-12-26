@@ -45,8 +45,8 @@
 
 
 .bg-aeroplane_1 {
-    width: 52px;
-    height: 52px;
+    width: 32px;
+    height: 32px;
     background: url('img1/css_sprites.png') -10px -10px;
     transition: all 0.5s;
     margin: 20px 0 15px 50px;
@@ -66,7 +66,7 @@
     background: url('img1/css_sprites.png') -62px -114px;
     transition: all 0.5s;
     margin: 20px 0 15px 50px;
-    
+
 
 }
 
