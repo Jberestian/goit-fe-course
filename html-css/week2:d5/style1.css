@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sinhala Sangam MN";
+}
+
+.wrapper{
+    background-image: url("img/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main-texxt{
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.content{
+    width: 500px;
+    height: 450px;
+    background-color: rgba(60, 60, 60, 0.69);
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    padding: 25px;
+}
+
+.aside-left{
+    width: 140px;
+    background-color: rgba(34, 34, 34, 0.69);
+    /*border: 1px solid crimson;*/
+    display: block;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.bg-aeroplane_1 {
+    width: 52px;
+    height: 52px;
+    background: url('img1/css_sprites.png') -10px -10px;
+    transition: all 0.5s;
+    margin: 20px 0 15px 50px;
+}
+
+.bg-aeroplane_1:hover {
+    width: 32px;
+    height: 32px;
+    background: url('img1/css_sprites.png') -62px -10px;
+    transition: all 0.5s;
+    margin: 20px 0 15px 50px;
+}
+
+.bg-hotel {
+    width: 32px;
+    height: 32px;
+    background: url('img1/css_sprites.png') -62px -114px;
+    transition: all 0.5s;
+    margin: 20px 0 15px 50px;
+    
+
+}
+
+.bg-hotel:hover{
+    width: 32px;
+    height: 32px;
+    background: url('img1/css_sprites.png') -114px -114px;
+    margin: 20px 0 15px 50px;
+    transition: all 0.5s;
+
+}
+
+.bg-briefcase {
+    width: 32px;
+    height: 32px;
+    background: url('img1/css_sprites.png') -62px -62px;
+    margin: 20px 0 15px 50px;
+    transition: all 0.5s;
+
+}
+
+.bg-briefcase:hover {
+    width: 32px;
+    height: 32px;
+    background: url('img1/css_sprites.png') -114px -10px;
+    margin: 20px 0 15px 50px;
+    transition: all 0.5s;
+
+}
+
+.bg-automobile {
+    width: 32px;
+    height: 32px;
+    background: url('img1/css_sprites.png') -10px -62px;
+    margin: 20px 0 15px 50px;
+    transition: all 0.5s;
+
+}
+
+.bg-automobile:hover{
+    width: 32px;
+    height: 32px;
+    background: url('img1/css_sprites.png') -114px -62px;
+    margin: 20px 0 15px 50px;
+    transition: all 0.5s;
+
+}
+
+
+.bg-cruise {
+    width: 32px;
+    height: 32px;
+    background: url('img1/css_sprites.png') -10px -114px;
+    margin: 20px 0 15px 50px;
+    transition: all 0.5s;
+
+}
+
+.bg-cruise:hover {
+    width: 32px;
+    height: 32px;
+    background: url('img1/css_sprites.png') -166px -10px;
+    margin: 20px 0 15px 50px;
+    transition: all 0.5s;
+
+}
+
+.main-input{
+    width: 315px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    font-size: 20px;
+    margin: auto;
+    padding: 0 20px 20px;
+}
+
+.input{
+    border-radius: 3px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin: 10px 10px;
+}
+
+.input1{
+    border-radius: 3px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin: 10px 10px;
+    background-color: yellow;
+}
