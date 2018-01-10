@@ -40,6 +40,23 @@ a{
     background-size: cover;
 }
 
+.header:after{
+    content: "\f062 ";
+    font-family: "FontAwesome", sans-serif;
+    text-align: center;
+    color: #fff;
+    line-height: 1.5rem;
+    font-size: 0.75rem;
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #38afe5;
+    border-radius: 50%;
+    position: fixed;
+    right: 1.5%;
+    bottom: 1.5%;
+}
+
 .container{
     min-width: 30rem;
     max-width: 64rem;
