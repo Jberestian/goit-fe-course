@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 200px;
+    background-color: #ff2b3c;
+}
+
+/*.row{*/
+    /*height: 50px;*/
+    /*background-color: #0d0d0d;*/
+/*}    */
+
+.box1{
+    background-color: #48e4ff;
+    border: black solid;
+}
+
+.box2{
+    background-color: #fffd8a;
+    border: #2337ff solid;
+}
