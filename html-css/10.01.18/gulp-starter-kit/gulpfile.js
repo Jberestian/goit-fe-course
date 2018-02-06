@@ -44,7 +44,7 @@ gulp.task('css', () => {
       log: false
     }))
     // Минифицируем css
-    .pipe(cssnano())
+    // .pipe(cssnano())
     // Выкидываем css в папку dist
     .pipe(gulp.dest('./dist'))
     // Говорим browser-sync о том что пора перезагрузить барузер так как файл изменился

@@ -1,6 +1,80 @@
 /*
    Import partials below
 */
+@import "reset";
+$color: yellow;
+$width: 400px;
+$height: 300px;
+$main-color: #888;
+
+
+//.box{
+//    width: $width;
+//    height: $height;
+//    background-color: $color;
+//    .box-item{
+//        font-size: 20px;
+//        .box-link{
+//            color: green;
+//        }
+//    }
+//
+//}
+
+//
+//.box{
+//    width: $width;
+//    height: $height;
+//    background-color: $color;
+//    &__item{
+//        font-size: 20px;
+//    }
+//    &__link{
+//        color: red;
+//        &--mod{
+//            font-size: 10px;
+//        }
+//    }
+//}
+
+
+%main-set {
+    background-color: #888;
+    width: 80%;
+    height: 100px;
+}
+
+.box2{
+    @extend %main-set;
+}
+
+@for $n from 1 through 10 {
+    .box-#{$n} {
+        font-size: 10px + $n;
+        @extend  %main-set;
+    }
+}
+
+//@each
+
+//change size to rem
+    @function  convertToRem($pxsize){
+    @return ($pxsize/16)+rem;
+}
+
+
+.box2{
+    width: convertToRem(200);
+    height: convertToRem(400);
+}
+
+//change size to rem
+
+
+
+
+
+
 //@import 'reset.scss';
 //$main-color: #888;
 //$width: 100%;

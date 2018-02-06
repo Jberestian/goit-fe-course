@@ -99,6 +99,9 @@ a{
     margin-bottom: 1.063rem;
 }
 
+.main_contact{
+    flex-basis: 55%;
+}
 .main_contact_textarea{
     display: block;
     font-family: Arial sans-serif;
