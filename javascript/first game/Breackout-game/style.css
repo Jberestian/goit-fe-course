@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #bbb;
+}
+
+
+canvas {
+    display: block;
+    margin: auto;
+    background: aliceblue;
+    border: 5px solid blue;
+}

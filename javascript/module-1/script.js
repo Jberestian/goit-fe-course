@@ -1,7 +1,14 @@
-// var name = '10';
+for (var i = 0; i< 5; i++){
+    setTimeout(() =>
+        console.log(i), 2000);
+}
+
+
+
+// / var name = '10';
 // console.log ( name );
 
-'use strict'
+// 'use strict'
 
 
 // alert('hello world');
@@ -106,9 +113,9 @@
 // console.log(string1.indexOf('й'));
 
 
-let text = 'Lorem ipsum dolor sit amet, amet sed eu ac cursus tortor, ante semper vestibulum est';
-let amount = text.length;
-console.log(text.length);
+// let text = 'Lorem ipsum dolor sit amet, amet sed eu ac cursus tortor, ante semper vestibulum est';
+// let amount = text.length;
+// console.log(text.length);
 
 // console.log(text[amount]);
 //
@@ -116,79 +123,79 @@ console.log(text.length);
 //
 // console.log(text.split('s'));
 
-console.log(text.substring(6, 11));
-console.log(text.substr(6, 5));
+// console.log(text.substring(6, 11));
+// console.log(text.substr(6, 5));
 
-let word = 'Hello';
+// let word = 'Hello';
 // console.log(word.substring(1,2));
 // console.log(word.substr(1,1));
 //
 // console.log(word.charAt(0));
 
-let word2 = 'world';
-let word3 = '!';
-let space = ' ';
+// let word2 = 'world';
+// let word3 = '!';
+// let space = ' ';
+//
+// console.log(word + ' ' + word2 + ' ' + word3);
+//
+// console.log(`${word} ${word2} ${word3}`);
+//
+// console.log(word.concat(space, word2, word3));
+//
+// console.log(text.startsWith('lorem'));
+//
+// console.log(text.endsWith('lorem'));
+//
+// console.log(word.includes('H'));
+//
+// console.log(text.indexOf('d'));
+//
+// console.log(word.repeat(5));
+//
+//
+//
+// let str = 'adcbe';
+// console.log(`${str[0]} ${str[2]} ${str[4]}`);
+//
+// let num = '12345';
+// let num1 = (+num.substring(0,1));
+// let num2 = (+num.substring(1,2));
+// let num3 = (+num.substring(2,3));
+// let num4 = (+num.substring(3,4));
+// let num5 = (+num.substring(4));
+//
+// console.log(num1 + num2 + num3 + num4 + num5);
+// console.log(num1 - num2 - num3 - num4 - num5);
+// console.log(num1 * num2 * num3 * num4 * num5);
+// console.log(num1 / num2 / num3 / num4 / num5);
+//
+// let text = 'js';
+// console.log(text.toUpperCase());
+//
+// let text1 = 'js';
+// console.log(text1.toLowerCase());
+//
+// let text3 = 'Я вчу javascript';
+// console.log(text3.length);
+//
+// let text4 =  'Я вчу javascript';
+// let text5 = text4.substring(2,5);
+// let text6 = text4.substring(6);
+// console.log(text5 + text6);
+//
+// let text7 =  'Я вчу javascript';
+// console.log(text7.indexOf('вчу'));
+//
+// let text8 =  'Я вчу javascript';
+// console.log(text8.split(' '));
+//
+// let text9 = 'Hello world welocome to the universe';
+// console.log(text9.endsWith('universe'));
+//
+// let text10 = 'Я вчу javascript';
+// console.log(text10.includes('javascript'));
+// console.log(text10.includes('scss'));
 
-console.log(word + ' ' + word2 + ' ' + word3);
 
-console.log(`${word} ${word2} ${word3}`);
-
-console.log(word.concat(space, word2, word3));
-
-console.log(text.startsWith('lorem'));
-
-console.log(text.endsWith('lorem'));
-
-console.log(word.includes('H'));
-
-console.log(text.indexOf('d'));
-
-console.log(word.repeat(5));
-
-
-
-let str = 'adcbe';
-console.log(`${str[0]} ${str[2]} ${str[4]}`);
-
-let num = '12345';
-let num1 = (+num.substring(0,1));
-let num2 = (+num.substring(1,2));
-let num3 = (+num.substring(2,3));
-let num4 = (+num.substring(3,4));
-let num5 = (+num.substring(4));
-
-console.log(num1 + num2 + num3 + num4 + num5);
-console.log(num1 - num2 - num3 - num4 - num5);
-console.log(num1 * num2 * num3 * num4 * num5);
-console.log(num1 / num2 / num3 / num4 / num5);
-
-let text = 'js';
-console.log(text.toUpperCase());
-
-let text1 = 'js';
-console.log(text1.toLowerCase());
-
-let text3 = 'Я вчу javascript';
-console.log(text3.length);
-
-let text4 =  'Я вчу javascript';
-let text5 = text4.substring(2,5);
-let text6 = text4.substring(6);
-console.log(text5 + text6);
-
-let text7 =  'Я вчу javascript';
-console.log(text7.indexOf('вчу'));
-
-let text8 =  'Я вчу javascript';
-console.log(text8.split(' '));
-
-let text9 = 'Hello world welocome to the universe';
-console.log(text9.endsWith('universe'));
-
-let text10 = 'Я вчу javascript';
-console.log(text10.includes('javascript'));
-console.log(text10.includes('css'));
-
-
-and module 1
+// and module 1
 
